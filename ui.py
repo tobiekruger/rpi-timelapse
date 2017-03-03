@@ -48,6 +48,7 @@ class FakeCharLCDPlate(object):
 class TimelapseUi(object):
 
     def __init__(self):
+        print("Init")
        
 
     def update(self, text):
